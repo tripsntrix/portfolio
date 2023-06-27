@@ -1,0 +1,615 @@
+#foto-awal {
+  width: 100%;
+  height: 67vh;
+  background: url("../../assets/img/Salinan%20dari%20background%20porto%20(1)%20small.png") center / cover no-repeat;
+}
+
+@media (min-width: 576px) {
+  #foto-awal {
+    background: url("../../assets/img/bg%20fixed.png") center / cover no-repeat;
+    height: 73vh;
+  }
+}
+
+@media (min-width: 992px) {
+  #foto-awal {
+    background: url("../../assets/img/bg%20fixed.png") center / cover no-repeat;
+    height: 67vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #foto-awal {
+    background: url("../../assets/img/bg%20long.png") bottom / cover no-repeat;
+    height: 69vh;
+  }
+}
+
+@media (min-width: 1400px) {
+  #foto-awal {
+    background: url("../../assets/img/bg%20long%20fixed.png") bottom / cover no-repeat;
+    height: 70vh;
+  }
+}
+
+#nama {
+  font-family: 'Bebas Neue', serif;
+  text-align: center;
+  font-stretch: ultra-expanded;
+  letter-spacing: 5px;
+  font-size: 26.88px;
+  margin-top: -20px;
+}
+
+@media (min-width: 300px) {
+  #nama {
+    font-size: 71px;
+    margin-top: -30px;
+    line-height: 76px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #who {
+    margin-top: -20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #who {
+    margin-top: -20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #nama {
+    margin-top: -30px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #nama {
+    margin-top: -50px;
+  }
+}
+
+@media (min-width: 992px) {
+  #scroll-to {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  #nama {
+    margin-top: -10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #nama {
+    margin-top: -10px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #nama {
+    margin-top: -2px;
+    font-size: 104px;
+    letter-spacing: 16px;
+  }
+}
+
+@media (min-width: 300px) {
+  #who {
+    font-size: 20px;
+    margin-top: -11px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  #who {
+    font-size: 27px;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  #nama {
+    font-size: 80px;
+    letter-spacing: 7px;
+  }
+}
+
+@media (min-width: 992px) {
+  #nama {
+    font-size: 94px;
+    margin-top: 0px;
+    letter-spacing: 11px;
+  }
+}
+
+@media (min-width: 300px) {
+  #sec2 {
+    background: url("../../assets/img/sec2%20hp.png") center / cover;
+    height: 69vh;
+  }
+}
+
+@media (min-width: 576px) {
+  #sec2 {
+    background: url("../../assets/img/sec2%20tab.png") center / cover;
+    height: 90vh;
+  }
+}
+
+@media (min-width: 768px) {
+  #sec2 {
+    background: url("../../assets/img/sec2%20tab.png") center / cover;
+    height: 118vh;
+  }
+}
+
+@media (min-width: 992px) {
+  #sec2 {
+    background: url("../../assets/img/education.png") center / cover;
+    height: 69vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #sec2 {
+    height: 86vh;
+  }
+}
+
+@media (min-width: 1400px) {
+  #sec2 {
+    height: 84vh;
+    background: url("../../assets/img/edu%20plus.png") bottom / cover;
+  }
+}
+
+@media (min-width: 300px) {
+  #education {
+    font-size: 44.4px;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: 18px;
+  }
+}
+
+#rincian {
+  font-size: 16px;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  #education {
+    margin-top: 42px;
+    font-size: 59.4px;
+  }
+}
+
+@media (min-width: 576px) {
+  #rincian {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 768px) {
+  #education {
+    margin-top: 45px;
+    font-size: 83.4px;
+  }
+}
+
+@media (min-width: 768px) {
+  #rincian {
+    font-size: 27px;
+  }
+}
+
+@media (min-width: 992px) {
+  #education {
+    text-align: right;
+    font-size: 94.4px;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  #rincian {
+    text-align: right;
+    width: 100%;
+    /*align-content: right;*/
+    margin-left: 0px;
+    font-size: 25px;
+    display: grid;
+  }
+}
+
+#bawahnya {
+  text-align: center;
+  margin-top: -17px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 16px;
+}
+
+@media (min-width: 576px) {
+  #bawahnya {
+    font-size: 23px;
+    /*text-align: right;*/
+  }
+}
+
+@media (min-width: 1400px) {
+  #rincian {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  #bawahnya {
+    font-size: 27px;
+  }
+}
+
+@media (min-width: 992px) {
+  #bawahnya {
+    text-align: right;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #bawahnya {
+    font-size: 30px;
+    margin-top: -4px;
+  }
+}
+
+@media (min-width: 1600px) {
+  #sec2 {
+  }
+}
+
+@media (min-width: 1200px) {
+  #education {
+    margin-top: 67px;
+  }
+}
+
+#section2 {
+  width: 100%;
+  height: 100vh;
+}
+
+#about {
+  font-size: 41.4px;
+  letter-spacing: 2px;
+}
+
+@media (min-width: 300px) {
+  #p1 {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 300px) {
+  #p3 {
+    font-size: 14px;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 576px) {
+  #p4 {
+  }
+}
+
+@media (min-width: 768px) {
+  #about {
+    font-size: 48.4px;
+  }
+}
+
+@media (min-width: 992px) {
+  #p1 {
+    font-size: 19px;
+  }
+}
+
+#section3 {
+  width: 100%;
+  height: 100vh;
+}
+
+@media (min-width: 300px) {
+  #fb {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 300px) {
+  #ig {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 300px) {
+  #tw {
+    font-size: 28px;
+  }
+}
+
+#kata {
+  border-radius: 30px;
+}
+
+btn.hover {
+  background-color: #3e8e41;
+  color: white;
+}
+
+#katalog {
+  background: url("../../assets/img/katalog%20fixed.png") center / cover no-repeat;
+  height: 81px;
+}
+
+@media (min-width: 768px) {
+  #katalog {
+    height: 161px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #katalog {
+    height: 181px;
+  }
+}
+
+#bridgeig {
+  background: url("../../assets/img/background%20porto%20(2).png") center / cover no-repeat;
+  height: 81px;
+  margin: 0px;
+  margin-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+  #bridgeig {
+    height: 161px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #bridgeig {
+    height: 181px;
+  }
+}
+
+#some {
+  font-size: 22.4px;
+}
+
+@media (min-width: 768px) {
+  #some {
+    font-size: 33.4px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #some {
+    font-size: 54.4px;
+  }
+}
+
+#basic {
+  background: url("../../assets/img/background%20porto%20(1).png") center / cover no-repeat;
+  height: 81px;
+}
+
+@media (min-width: 768px) {
+  #basic {
+    height: 161px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #basic {
+    height: 181px;
+  }
+}
+
+#tocome {
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  #tocome {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #tocome {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 300px) {
+  #section4 {
+    height: 35vh;
+    width: 100%;
+  }
+}
+
+#cont {
+  width: 146px;
+}
+
+@media (min-width: 768px) {
+  #section4 {
+    height: 308px;
+  }
+}
+
+#intr {
+  font-size: 31px;
+  padding-left: 8px;
+}
+
+@media (min-width: 992px) {
+  #intr {
+    font-size: 41px;
+  }
+}
+
+#wa {
+  font-size: 29px;
+}
+
+#linkedin {
+  font-size: 28px;
+}
+
+@media (min-width: 992px) {
+  #wa {
+    font-size: 42px;
+  }
+}
+
+@media (min-width: 992px) {
+  #linkedin {
+    font-size: 42px;
+  }
+}
+
+@media (min-width: 992px) {
+  #cont {
+    width: 231px;
+  }
+}
+
+#footer {
+  height: 132px;
+  background: url("../../assets/img/7.png") top / cover no-repeat;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  #footer {
+    height: 185px;
+  }
+}
+
+@media (min-width: 768px) {
+  #footer {
+    height: 236px;
+  }
+}
+
+@media (min-width: 992px) {
+  #footer {
+    height: 298px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #footer {
+    height: 357px;
+  }
+}
+
+#crea {
+  font-size: 7px;
+  overflow: hidden;
+  padding-bottom: 6px;
+  width: 100%;
+}
+
+#flw {
+  font-size: 10px;
+  margin-bottom: 0px;
+}
+
+#r1 {
+  width: 132.2px;
+  height: 44px;
+  padding-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+  #crea {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #crea {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #footer {
+    height: 446px;
+  }
+}
+
+@media (min-width: 300px) {
+  #about-me {
+    height: 73vh;
+  }
+}
+
+@media (min-width: 300px) {
+  #kpu {
+    height: 81px;
+  }
+}
+
+@media (min-width: 300px) {
+  #hijrah {
+    height: 81px;
+  }
+}
+
+@media (min-width: 768px) {
+  #hijrah {
+    height: 161px;
+  }
+}
+
+@media (min-width: 768px) {
+  #kpu {
+    height: 161px;
+  }
+}
+
+@media (min-width: 768px) {
+  #section3 {
+    height: 160vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #kpu {
+    height: 181px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #hijrah {
+    height: 181px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #section3 {
+    height: 190vh;
+  }
+}
+
